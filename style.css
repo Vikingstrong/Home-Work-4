@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+header{
+    background-color: #F1DFD5;
+}
+.osnheadercont{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.firstheaderbox{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.firstheaderbox nav{
+    display: flex;
+    gap: 20px;
+}
+.btnheaderbox{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.btnheaderbox button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+header i{
+    display: none !important;
+}
+
+
+
+@media (max-width: 500px) {
+    header nav, .btnheaderbox{
+        display: none !important;
+    }
+    header i{
+        display: block !important;
+    }
+}

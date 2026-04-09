@@ -39,6 +39,98 @@ header{
 header i{
     display: none !important;
 }
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 25px;
+    gap: 15px;
+    background-color: #F1DFD5;
+    position: relative;
+}
+.section1 img{
+    position: absolute;
+}
+.section1 h1{
+    font-size: 80px;
+    width: 850px;
+    text-align: center;
+}
+.section1 p{
+    font-weight: 500;
+    width: 570px;
+    text-align: center
+}
+.sect1btndiv{
+    display: flex;
+    gap: 5px;
+    margin-top: 50px;
+}
+.sect1btndiv button{
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+}
+.sect1btndiv button:first-child{
+    background-color: black;
+    color: white;
+}
+.sect1btndiv button:last-child{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sect1btndiv img{
+    position: static;
+}
+.posimg1{
+    left: 100px;
+    top: 50px;
+}
+.posimg2{
+    left: 250px;
+    top: 115px;
+}
+.posimg3{
+    left: 200px;
+    top: 220px;
+}
+.posimg4{
+    left: 350px;
+    top: 300px;
+}
+.posimg5{
+    left: 300px;
+    top: 390px;
+}
+.posimg6{
+    right: 325px;
+    top: 70px;
+}
+.posimg7{
+    right: 180px;
+    top: 120px;
+}
+.posimg8{
+    right: 350px;
+    top: 230px;
+}
+.posimg9{
+    right: 220px;
+    top: 260px;
+}
+.posimg10{
+    right: 210px;
+    top: 450px;
+}
+
+
 
 
 
@@ -48,5 +140,21 @@ header i{
     }
     header i{
         display: block !important;
+    }
+    .section1 h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .section1 p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .sect1btndiv button{
+        font-size: 10px;
+        padding: 10px;
+        width: 150px;
+    }
+    .section1 img{
+        display: none !important;
     }
 }

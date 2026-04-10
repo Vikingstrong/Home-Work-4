@@ -188,7 +188,7 @@ header i{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 550px;
+    width: 570px;
 }
 .sect3box h1{
     font-size: 40px;
@@ -259,5 +259,8 @@ header i{
     }
     .sect3box p{
         font-size: 12px;
+    }
+    .section4{
+        flex-direction: column-reverse;
     }
 }

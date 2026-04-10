@@ -1,0 +1,70 @@
+.btnheaderbox button{
+    transition: 0.3s;
+}
+.btnheaderbox button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+nav p{
+    transition: 0.3s;
+}
+nav p:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sect1btndiv button{
+    transition: 0.3s;
+}
+.sect1btndiv button:first-child:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.sect1btndiv button:last-child:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.section1 img{
+    transition: 0.3s;
+}
+.section1 img:hover{
+    transform: scale(1.2);
+}
+.sect2box{
+    transition: 0.3s;
+}
+.sect2box:hover{
+    transform: scale(0.9);
+}
+.coment{
+    transition: 0.3s;
+}
+.coment:hover{
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+}
+.section9{
+    transition: 0.3s;
+}
+.section9:hover{
+    background-color: rgb(12, 245, 0);
+}
+.section9 button{
+    transition: 0.3s;
+}
+.section9 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.fbox2 i{
+    transition: 0.3s;
+}
+.fbox2 i:hover{
+    color: black !important;
+}

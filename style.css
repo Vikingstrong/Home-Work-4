@@ -298,13 +298,14 @@ header i{
     display: flex;
     flex-direction: column;
     padding: 50px 25px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
     gap: 50px;
     align-items: center;
     background-color: #88C9FD;
     border-radius: 10px;
     margin-top: 50px;
+    margin-bottom: 25px;
     position: relative;
     overflow: hidden;
 }
@@ -328,9 +329,68 @@ header i{
     top: -50px;
 }
 .img2{
-    right: 440px;
+    right: 240px;
     top: 25px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 25px;
+}
+.fcont1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 340px;
+    align-items: start;
+}
+.fcont1 p{
+    font-size: 15.28px;
+    font-weight: 500;
+}
+.fcont1 input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.fcont2{
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+.fcont2 p{
+    font-size: 15.28px;
+    font-weight: 500;
+}
+.fbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.gray{
+    color: #4E4E4E;
+}
+.fbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fbox2 h4{
+    font-size: 15.28px;
+    font-weight: 500;
+}
+.fbox2 p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fbox2 i{
+    font-size: 20px;
+}
+
 
 @media (max-width: 500px) {
     header nav, .btnheaderbox{
@@ -419,5 +479,13 @@ header i{
     }
     .img2{
         display: none !important;
+    }
+    footer{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .fcont2{
+        flex-wrap: wrap;
+        gap: 25px;
     }
 }

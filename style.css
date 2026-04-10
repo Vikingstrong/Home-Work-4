@@ -294,10 +294,43 @@ header i{
 .profile span{
     font-weight: 400;
 }
-
-
-
-
+.section9{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 50px;
+    align-items: center;
+    background-color: #88C9FD;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.section9 h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.section9 button{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    border: none;
+}
+.section9 img{
+    position: absolute;
+}
+.img1{
+    left: -100px;
+    top: -50px;
+}
+.img2{
+    right: 440px;
+    top: 25px;
+}
 
 @media (max-width: 500px) {
     header nav, .btnheaderbox{
@@ -370,5 +403,21 @@ header i{
     }
     .coment{
         width: 86%;
+    }
+    .section9{
+        gap: 30px;
+    }
+    .section9 h1{
+        font-size: 30px;
+    }
+    .section9 button{
+        font-size: 12px;
+        padding: 15px;
+    }
+    .img1{
+        left: -165px;
+    }
+    .img2{
+        display: none !important;
     }
 }

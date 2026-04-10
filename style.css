@@ -188,7 +188,7 @@ header i{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 570px;
+    width: 605px;
 }
 .sect3box h1{
     font-size: 40px;
@@ -222,7 +222,10 @@ header i{
     font-weight: 600;
 }
 
-
+.sect6box h2{
+    font-size: 20px;
+    font-weight: 800;
+}
 
 
 
@@ -288,5 +291,8 @@ header i{
     .sect5cont{
         flex-direction: column;
         gap: 100px;
+    }
+    .sect6box h2{
+        font-size: 14px;
     }
 }

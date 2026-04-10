@@ -226,7 +226,30 @@ header i{
     font-size: 20px;
     font-weight: 800;
 }
-
+.section7{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 50px;
+}
+.sect7box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+}
+.sect7box h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.sect7box p{
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 @media (max-width: 500px) {

@@ -176,6 +176,34 @@ header i{
     font-weight: 900;
 }
 
+.section3{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+.sect3box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+}
+.sect3box h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.sect3box p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
 @media (max-width: 500px) {
     header nav, .btnheaderbox{
         display: none !important;
@@ -215,5 +243,21 @@ header i{
     }
     .sect2box{
         width: 80%;
+    }
+    .section3{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .section3 img{
+        width: 100%;
+    }
+    .sect3box{
+        width: 100%;
+    }
+    .sect3box h1{
+        font-size: 26px;
+    }
+    .sect3box p{
+        font-size: 12px;
     }
 }

@@ -198,7 +198,29 @@ header i{
     font-size: 16px;
     font-weight: 500;
 }
-
+.section5{
+    background-color: #88C9FD80;
+    margin: 25px 0px;
+    padding: 25px;
+}
+.sect5cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.sect5cont h2{
+    font-weight: 800;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sect5cont span{
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 
@@ -262,5 +284,9 @@ header i{
     }
     .section4{
         flex-direction: column-reverse;
+    }
+    .sect5cont{
+        flex-direction: column;
+        gap: 100px;
     }
 }
